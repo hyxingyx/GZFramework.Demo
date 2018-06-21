@@ -79,14 +79,6 @@
       <Project>{32e5f6a4-4d24-40e8-b62e-9be380db37ef}</Project>
       <Name>GZFrameworkDemo.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\GZFramework\GZDBHelper\GZDBHelper.csproj">
-      <Project>{879158ef-ef85-4b55-91ef-21399e108cd7}</Project>
-      <Name>GZDBHelper</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\GZFramework\GZFramework.DB\GZFramework.DB.csproj">
-      <Project>{3986c490-ccd4-4328-b96b-1fba69cb7238}</Project>
-      <Name>GZFramework.DB</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Sys\" />

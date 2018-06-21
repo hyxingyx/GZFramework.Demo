@@ -87,81 +87,55 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dialog\frmDialog_MenuEdit.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Dialog\frmDialog_MenuEdit.cs" />
     <Compile Include="Dialog\frmDialog_MenuEdit.Designer.cs">
       <DependentUpon>frmDialog_MenuEdit.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCompanyInfo.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="frmCompanyInfo.cs" />
     <Compile Include="frmCompanyInfo.Designer.cs">
       <DependentUpon>frmCompanyInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDBList.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="frmDBList.cs" />
     <Compile Include="frmDBList.designer.cs">
       <DependentUpon>frmDBList.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDialogChangeDBText.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="frmDialogChangeDBText.cs" />
     <Compile Include="frmDialogChangeDBText.Designer.cs">
       <DependentUpon>frmDialogChangeDBText.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDialog_DBEdit.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="frmDialog_DBEdit.cs" />
     <Compile Include="frmDialog_DBEdit.designer.cs">
       <DependentUpon>frmDialog_DBEdit.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDialog_DBList.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="frmDialog_DBList.cs" />
     <Compile Include="frmDialog_DBList.Designer.cs">
       <DependentUpon>frmDialog_DBList.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDialog_RoleList.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="frmDialog_RoleList.cs" />
     <Compile Include="frmDialog_RoleList.Designer.cs">
       <DependentUpon>frmDialog_RoleList.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmModuleMain.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="frmModuleMain.cs" />
     <Compile Include="frmModuleMain.Designer.cs">
       <DependentUpon>frmModuleMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmMyRole.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="frmMyRole.cs" />
     <Compile Include="frmMyRole.designer.cs">
       <DependentUpon>frmMyRole.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmMyUser.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="frmMyUser.cs" />
     <Compile Include="frmMyUser.designer.cs">
       <DependentUpon>frmMyUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmRibbonStyle.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="frmRibbonStyle.cs" />
     <Compile Include="frmRibbonStyle.Designer.cs">
       <DependentUpon>frmRibbonStyle.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmSetting.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="frmSetting.cs" />
     <Compile Include="frmSetting.Designer.cs">
       <DependentUpon>frmSetting.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmSystemAuthority.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="frmSystemAuthority.cs" />
     <Compile Include="frmSystemAuthority.Designer.cs">
       <DependentUpon>frmSystemAuthority.cs</DependentUpon>
     </Compile>
@@ -241,18 +215,6 @@
     <ProjectReference Include="..\GZFramework.UI.Dev\GZFramework.UI.Dev.csproj">
       <Project>{5729d5dc-a77a-4218-9aa5-066527399da9}</Project>
       <Name>GZFramework.UI.Dev</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\GZFramework\GZDBHelper\GZDBHelper.csproj">
-      <Project>{879158ef-ef85-4b55-91ef-21399e108cd7}</Project>
-      <Name>GZDBHelper</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\GZFramework\GZFramework.DB\GZFramework.DB.csproj">
-      <Project>{3986c490-ccd4-4328-b96b-1fba69cb7238}</Project>
-      <Name>GZFramework.DB</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\GZFramework\GZFramework.UI.Core\GZFramework.UI.Core.csproj">
-      <Project>{aa52a8ca-7844-45b0-bbd0-86ba98ab468a}</Project>
-      <Name>GZFramework.UI.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -87,14 +87,6 @@
       <Project>{32e5f6a4-4d24-40e8-b62e-9be380db37ef}</Project>
       <Name>GZFrameworkDemo.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\GZFramework\GZFramework.DB\GZFramework.DB.csproj">
-      <Project>{3986c490-ccd4-4328-b96b-1fba69cb7238}</Project>
-      <Name>GZFramework.DB</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\GZFramework\GZFramework.UI.Core\GZFramework.UI.Core.csproj">
-      <Project>{aa52a8ca-7844-45b0-bbd0-86ba98ab468a}</Project>
-      <Name>GZFramework.UI.Core</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="frmMain.resx">

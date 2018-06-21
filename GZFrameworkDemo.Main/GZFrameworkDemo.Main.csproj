@@ -180,18 +180,6 @@
       <Project>{5729d5dc-a77a-4218-9aa5-066527399da9}</Project>
       <Name>GZFramework.UI.Dev</Name>
     </ProjectReference>
-    <ProjectReference Include="..\GZFramework\GZDBHelper\GZDBHelper.csproj">
-      <Project>{879158ef-ef85-4b55-91ef-21399e108cd7}</Project>
-      <Name>GZDBHelper</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\GZFramework\GZFramework.DB\GZFramework.DB.csproj">
-      <Project>{3986c490-ccd4-4328-b96b-1fba69cb7238}</Project>
-      <Name>GZFramework.DB</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\GZFramework\GZFramework.UI.Core\GZFramework.UI.Core.csproj">
-      <Project>{aa52a8ca-7844-45b0-bbd0-86ba98ab468a}</Project>
-      <Name>GZFramework.UI.Core</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="GZ.ico" />

@@ -103,16 +103,6 @@
     <Compile Include="Sys\sys_ModulesFunction.cs" />
     <Compile Include="Sys\sys_ModulesFunctionAuthority.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\GZFramework\GZDBHelper\GZDBHelper.csproj">
-      <Project>{879158ef-ef85-4b55-91ef-21399e108cd7}</Project>
-      <Name>GZDBHelper</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\GZFramework\GZFramework.DB\GZFramework.DB.csproj">
-      <Project>{3986c490-ccd4-4328-b96b-1fba69cb7238}</Project>
-      <Name>GZFramework.DB</Name>
-    </ProjectReference>
-  </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

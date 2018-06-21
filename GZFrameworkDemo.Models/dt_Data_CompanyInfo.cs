@@ -11,7 +11,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using GZFramework.DB.ModelAttribute;
+//using GZFramework.DB.ModelAttribute;
 
 namespace GZFrameworkDemo.Models
 {
@@ -20,7 +20,7 @@ namespace GZFrameworkDemo.Models
     /// GZFrameworkCodeGenerate代码生成器自动生成
     /// 时间：2017-05-03 11:36
     /// </summary>
-    [ModelStruct(dt_Data_CompanyInfo._TableName)]
+    //[ModelStruct(dt_Data_CompanyInfo._TableName)]
     public sealed class dt_Data_CompanyInfo
     {
         public const string _TableName = "dt_Data_CompanyInfo";
@@ -28,85 +28,85 @@ namespace GZFrameworkDemo.Models
         /// <summary>
         /// 自增列
         /// </summary>
-        [ModelPrimaryKey]
+        //[ModelPrimaryKey]
         public const string isid = "isid";
 
         /// <summary>
         /// 公司名称
         /// </summary>
-        [ModelEditField]
+        //[ModelEditField]
         public const string CompanyName = "CompanyName";
 
         /// <summary>
         /// 地址
         /// </summary>
-        [ModelEditField]
+        //[ModelEditField]
         public const string CompanyAddress = "CompanyAddress";
 
         /// <summary>
         /// 电话
         /// </summary>
-        [ModelEditField]
+        //[ModelEditField]
         public const string Phone = "Phone";
 
         /// <summary>
         /// 手机
         /// </summary>
-        [ModelEditField]
+        //[ModelEditField]
         public const string Mobile = "Mobile";
 
         /// <summary>
         /// 传真
         /// </summary>
-        [ModelEditField]
+        //[ModelEditField]
         public const string Fax = "Fax";
 
         /// <summary>
         /// 对公账号
         /// </summary>
-        [ModelEditField]
+        //[ModelEditField]
         public const string PublicAccount = "PublicAccount";
 
         /// <summary>
         /// 对公账号公司名称
         /// </summary>
-        [ModelEditField]
+        //[ModelEditField]
         public const string PublicName = "PublicName";
 
         /// <summary>
         /// 对公账号开户行
         /// </summary>
-        [ModelEditField]
+        //[ModelEditField]
         public const string PublicBackInfo = "PublicBackInfo";
 
         /// <summary>
         /// 私人账号
         /// </summary>
-        [ModelEditField]
+        //[ModelEditField]
         public const string PrivateAccount = "PrivateAccount";
 
         /// <summary>
         /// 私人账号开户行
         /// </summary>
-        [ModelEditField]
+        //[ModelEditField]
         public const string PrivateBankName = "PrivateBankName";
 
         /// <summary>
         /// 私人账号姓名
         /// </summary>
-        [ModelEditField]
+        //[ModelEditField]
         public const string PrivateName = "PrivateName";
 
         /// <summary>
         /// 最后修改人
         /// </summary>
-        [ModelEditField]
+        //[ModelEditField]
         public const string LastUpdateUser = "LastUpdateUser";
 
         /// <summary>
         /// 最后修改时间
         /// </summary>
-        [ModelEditField]
+        //[ModelEditField]
         public const string LastUpdateDate = "LastUpdateDate";
 
     }

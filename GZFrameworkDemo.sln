@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2010
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GZFrameworkDemo.Models", "GZFrameworkDemo.Models\GZFrameworkDemo.Models.csproj", "{32E5F6A4-4D24-40E8-B62E-9BE380DB37EF}"
 EndProject
@@ -25,15 +25,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GZFramework.UI.Dev", "GZFra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GZFramework.UI.Dev.Controls", "GZFramework.UI.Dev.Controls\GZFramework.UI.Dev.Controls.csproj", "{F7269578-4807-4B61-B7DE-2B82FD45213B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GZFramework", "GZFramework", "{B6804390-8EF4-4A56-BAD6-7AA674A6E2FB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GZDBHelper", "GZFramework\GZDBHelper\GZDBHelper.csproj", "{879158EF-EF85-4B55-91EF-21399E108CD7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GZFramework.DB", "GZFramework\GZFramework.DB\GZFramework.DB.csproj", "{3986C490-CCD4-4328-B96B-1FBA69CB7238}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GZFramework.UI.Core", "GZFramework\GZFramework.UI.Core\GZFramework.UI.Core.csproj", "{AA52A8CA-7844-45B0-BBD0-86BA98AB468A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GZFrameworkDemo.HR", "GZFrameworkDemo.HR\GZFrameworkDemo.HR.csproj", "{0275E787-5D5B-4093-B354-7455858B54F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GZFramework", "GZFramework\GZFramework.csproj", "{CE59AF4E-A257-4CEB-809A-365630A7BE64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,33 +79,20 @@ Global
 		{F7269578-4807-4B61-B7DE-2B82FD45213B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7269578-4807-4B61-B7DE-2B82FD45213B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7269578-4807-4B61-B7DE-2B82FD45213B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{879158EF-EF85-4B55-91EF-21399E108CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{879158EF-EF85-4B55-91EF-21399E108CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{879158EF-EF85-4B55-91EF-21399E108CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{879158EF-EF85-4B55-91EF-21399E108CD7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3986C490-CCD4-4328-B96B-1FBA69CB7238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3986C490-CCD4-4328-B96B-1FBA69CB7238}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3986C490-CCD4-4328-B96B-1FBA69CB7238}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3986C490-CCD4-4328-B96B-1FBA69CB7238}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AA52A8CA-7844-45B0-BBD0-86BA98AB468A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AA52A8CA-7844-45B0-BBD0-86BA98AB468A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AA52A8CA-7844-45B0-BBD0-86BA98AB468A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AA52A8CA-7844-45B0-BBD0-86BA98AB468A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0275E787-5D5B-4093-B354-7455858B54F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0275E787-5D5B-4093-B354-7455858B54F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0275E787-5D5B-4093-B354-7455858B54F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0275E787-5D5B-4093-B354-7455858B54F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE59AF4E-A257-4CEB-809A-365630A7BE64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE59AF4E-A257-4CEB-809A-365630A7BE64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE59AF4E-A257-4CEB-809A-365630A7BE64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE59AF4E-A257-4CEB-809A-365630A7BE64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{879158EF-EF85-4B55-91EF-21399E108CD7} = {B6804390-8EF4-4A56-BAD6-7AA674A6E2FB}
-		{3986C490-CCD4-4328-B96B-1FBA69CB7238} = {B6804390-8EF4-4A56-BAD6-7AA674A6E2FB}
-		{AA52A8CA-7844-45B0-BBD0-86BA98AB468A} = {B6804390-8EF4-4A56-BAD6-7AA674A6E2FB}
-	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		VisualSVNWorkingCopyRoot = .
 		SolutionGuid = {9A353D84-7FAF-48AD-B2A5-B440A943C72C}
+		VisualSVNWorkingCopyRoot = .
 	EndGlobalSection
 EndGlobal
